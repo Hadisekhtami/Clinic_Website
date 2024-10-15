@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'FH Collena';
+    src: url(./FH+Collena.eot);
+    src: url(./FH+Collena.eot?#iefix) format('embedded-opentype'),
+         url(./FH+Collena.woff2) format('woff2'),
+         url(./FH+Collena.woff) format('woff'),
+         url(./FH+Collena.ttf) format('truetype'),
+         url(./FH+Collena.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+  }
+  *
+  {
+    color: black;
+    text-decoration: none!important;
+  }
+  html
+  {
+    font-size: 16px;
+  }
+  header
+  {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../Img/1.webp) center/cover no-repeat;
+  }
+  .text-brand
+  {
+  font-size: 1.7rem;
+  font-family: 'FH Collena';
+  font-weight: bold;
+  }
+  .top-menu-group-icon
+  {
+    margin-top: 5px;
+  }
+  .searchbar
+  {
+    display: flex;
+    flex-wrap:nowrap ;
+  }
+  .clinic_icon img:hover
+  {
+   
+    transform: translate(0px, -5px);
+    transition: all .5s ease-in-out;
+    background-color:#0069cc3f;
+    border-radius: 20px;
+  }
+  .title:hover
+  {
+   color:#0069ccb4;
+  }
+  .description
+  {
+    line-height: 28px;
+  }
+  .img_clinic:hover
+  {
+    opacity: 0.9;
+    box-shadow: 0px 2px 2px rgb(186, 186, 186);
+  
+  }
+  .bg-footer
+  {
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+  }  
+  .top-menu-group-icon
+  {
+    order: 3;
+  }
+  @media screen and (max-width: 992px) 
+  {
+   
+    .top-menu-container
+    {
+      flex-direction: column!important;
+    }
+  
+    .brand
+    {
+      justify-content: center;
+      font-weight: bold;
+      order: 1;
+  
+    }
+    .menu
+    {
+      margin-right: 230px;
+      order: 2;
+    }
+    .reserve-btn
+    {
+      font-size: 1.5rem;
+    }
+    .Clinic_Icon
+    {
+      width: 600px;
+    }
+   
+    .first { order: 0!important; }
+    .second { order: 1!important; }
+  
+    .description
+    {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .Clinic_Info
+    {
+      margin: auto!important;
+      margin-top: 50px!important;
+    }
+    .img_clinic
+    {
+      vertical-align: middle;
+      border-radius: 50px!important;
+    }
+  
+  }
+  @media screen and (min-width: 768px) {
+   
+    .first { order: 1!important; }
+    .second { order: 0!important;}
+  
+  }
+  @media screen and (max-width:600px){
+  
+    .Clinic_Icon
+    {
+      width: 300px;
+      margin: auto;
+    }
+  }
+  
+  
